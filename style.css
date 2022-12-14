@@ -1015,6 +1015,10 @@ input::placeholder{
     .section4{
         height: 599px;
     }
+
+    .sousSectionPrincipal{
+        gap: 25%;
+    }
 }
   
 ul.open {
