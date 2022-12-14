@@ -1,0 +1,1024 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width:min(1196px, 100%);
+    margin: auto;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+/* SECTION 1 -------------------------------------------------------*/
+
+
+ul{
+    display: flex;
+    gap: 35px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.section1 a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.section1{
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+
+}
+
+.burgerClass{
+    display: none;
+}
+
+/* SECTION 2 --------------------------------------------------------*/
+
+.section2{
+    margin-top: 40px;
+    background-color: white;
+    display: flex;
+    min-height: 514px;
+    align-items: center;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    padding-left: 60px;
+}
+
+
+.txt img{
+    max-width:300px;
+    min-height: 102px;
+}
+
+
+.txt h2{
+    font-size: 38px;
+}
+
+
+.txt h2{
+    color: #CF3034;
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    min-height: 86px;
+}
+
+.txt p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 44px;
+}
+
+#imgaccueil{
+    max-width: 578px;
+    min-height:424px;
+}
+
+.btnrouge{
+    background-color: #CF3034;
+    width: 193px;
+    height: 52px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 0;
+}
+
+.btnrouge:hover{
+    background-color: white;
+    border: 1.5px solid #CF3034;
+    color: #CF3034;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+
+/* SECTION 3 ------------------------------------------------------*/
+
+
+.titreH2{
+    font-weight: 700px;
+    font-size: 38px;
+    height: 43px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    
+}
+
+.fiche{
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    flex-wrap: wrap;
+
+}
+
+.fiche1{
+    background-color: #FFFFFF;
+    width: 197px;
+    height: 254px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+    
+}
+
+.fiche1 .numero{
+    margin-top: 31px;
+    margin-bottom: 11px;
+    color: #CF3034;
+    width: 154px;
+    height: 73px;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.fiche1 p{
+    font-weight: 400;
+    font-size: 24px;
+    width: 159px;
+    height: 54px;
+    margin: 0;
+}
+
+.fiche1 .vectorBlack{
+    align-self: flex-end;
+    padding-top: 40px;
+}
+
+.ficheRouge .vectorWhite{
+    align-self: flex-end;
+    padding-top: 45px;
+}
+
+.ficheRouge{
+    background-color: #CF3034;
+    width: 197px;
+    height: 254px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.ficheRouge p{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    width: 159px;
+    height: 54px;
+    padding-right: 19px;
+    padding-bottom: 70px;
+}
+
+/* SECTION 4 -----------------------------------------------*/
+
+
+.slide{
+    background-color: white;
+    width: min(1196px, 100%);
+    height: min(380px, 100%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    transition: all 0.5s;
+    display: flex;
+}
+
+.slide2{
+    justify-content: space-around;
+}
+
+
+.slide3{
+    justify-content: space-around;
+}
+
+.partGauche img{
+    width: 30px;
+    height: 20px;
+    margin-bottom: 22px;
+}
+
+.partGauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-left: 30px;
+}
+
+.pSection4{
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 770px;
+    margin-bottom: 22px;
+   
+}
+
+.pGras{
+    font-weight: 600;
+    font-size: 18px;
+    width: min(439px, 100%) ;
+    min-height: 50px;
+    margin: 0;
+}
+
+.partDroite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.portrait{
+    margin-bottom: 17px;
+}
+
+.numero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numero p{
+    width: 29px;
+    height: 33px;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.numero img{
+    width: 11.37px;
+    height: 22.75px;
+}
+
+.num{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.num p{
+    padding-right: 10px;
+}
+
+  .btn:active {
+    transform: scale(1.1);
+  }
+
+  .btn{
+    background-color: white;
+    border: 0;
+  }
+
+  .section4 {
+    background-color: white;
+    position: relative;
+    overflow: hidden;  
+    width: min(1196px, 100%);
+    height: min(430px, 580px);
+    display: flex;
+    align-items: center;
+  }
+
+/* SECTION 5 --------------------------------------------------- */
+
+.imageCache{
+    display: none;
+}
+
+.section5{
+    background: url(simplon.co/img-apprentis.png);
+    width:min(1196px, 100%);
+    min-height: 385px;
+    background: cover;
+    background-position:center center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.apprentis{
+    background-color: white;
+    width: 511px;
+    min-height: 323px;  
+    margin-bottom: 80px;
+}
+
+
+.txtapprentis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 35px 0px 35px;
+}
+
+.txtapprentis h3{
+    font-weight: 700;
+    font-size: 24px;
+    min-height: 81px;
+    padding-bottom: 5px;
+}
+
+.txtapprentis p{
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+
+.txtapprentis button{
+    background-color: #CF3034;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 0;
+    width: 193px;
+    height: 52px;
+
+}
+
+.txtapprentis button:hover{
+    background-color: white;
+    border: 1.5px solid #CF3034;
+    color: #CF3034;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* SECTION 6 ------------------------------------------------------------------- */
+
+.section6{
+    background-color: white;
+    width:min(1196px, 100%);
+    height: 163px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.sousSection6{
+   margin-top: 15px;
+   text-align: center;
+}
+
+.vg{
+    padding-right: 37.64px;
+}
+
+.vd{
+    padding-left: 37.64px;
+}
+
+.carreRouge{
+    width: 45px;
+    height: 45px;
+    background-color: #CF3034;
+}
+
+.sousSectionPrincipal{
+    display: flex;
+    justify-content: flex-end;
+    gap: 43%;
+    margin-bottom: 80px;
+}
+
+/* FOOTER ------------------------------------------------------------------------*/
+
+footer{
+    background-color: #CF3034;
+    padding-bottom: 20px ;
+}
+
+.imageCacheeFooter{
+    display: none;
+}
+
+.logoReseauFooterCachee{
+    display: none;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px ;
+    width: 57%;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.mailIcone{
+    display: flex;
+}
+
+.email h3{
+    font-weight: 700;
+    font-size: 38px;
+    color: #FFFFFF;
+    margin: 0 0 6px 0;
+}
+
+.email p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 0 19px 0;
+}
+
+.email input{
+    margin-top: 15px;
+    border: 1px solid #FFFFFF;
+}
+
+.email{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.logoReseau{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 46px;
+}
+
+
+/* LOGO HOVER ---------------------------- */
+
+.fb{
+    display: block;
+    background: url(simplon.co/fb.png) no-repeat center center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.insta{
+    display: block;
+    background: url(simplon.co/insta.png) no-repeat center center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+
+.twitter{
+    display: block;
+    background: url(simplon.co/twitter.png) no-repeat center center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.yt{
+    display: block;
+    background: url(simplon.co/youtube.png) no-repeat center center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin{
+    display: block;
+    background: url(simplon.co/linkedin.png) no-repeat center center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+/* HOVER--------------------------------------------------------------- */
+
+.fb:hover{
+    background: url(simplon.co/logoBlanc/fb.png);
+    background-size: contain;
+}
+
+.insta:hover{
+    background: url(simplon.co/logoBlanc/insta.png);
+    background-size: contain;
+}
+
+.twitter:hover{
+    background: url(simplon.co/logoBlanc/twitter.png);
+    background-size: contain;
+}
+
+.yt:hover{
+    background: url(simplon.co/logoBlanc/youtube.png);
+    background-size: contain;
+}
+
+.linkedin:hover{
+    background: url(simplon.co/logoBlanc/linkedin.png);
+    background-size: contain;
+}
+
+.infoFooter{
+    width: 95%;
+}
+
+.infoFooter ul{
+    margin-top: 45px;
+    display: flex;
+    gap:0;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+
+.infoFooter a{
+    color: white;
+    text-decoration: none;
+
+}
+
+input{
+    background-color: #CF3034;
+    width: 315px;
+    height: 32px;
+    border: 1px solid white;
+    padding: 7px 21px;
+   
+}
+
+.email input{
+    margin: 0;
+}
+
+input::placeholder{
+    color: white;
+}
+
+/* MEDIA RESPONSIVE----------------------------------------------------------------------------- */
+/* 1340PX ----------------------------------------------------------------------------------------- */
+
+@media(max-width: 1340px){
+
+    nav{
+        padding: 5px 5px;
+    }
+
+/* FOOTER---------------------------------------------------------------------------------------- */
+
+    .email{
+        align-items: center;
+    }
+
+    .mailIcone{
+        padding-left: 20px;
+    }
+    .footer1{
+        justify-content: center; 
+    }
+
+    .infoFooter{
+        width: 100%;
+    }
+
+}
+
+/* 1340PX ----------------------------------------------------------------------------------------- */
+
+@media(max-width: 1055px){
+    .section2{
+        flex-direction: column-reverse;
+    }
+
+    .txt{
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .txt img{
+        align-self: center;
+    }
+
+    .button{
+        align-self: center;
+    }
+
+    #imgaccueil{
+        padding-top: 10px;
+    }
+}
+
+/* 900PX ----------------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 900px) {
+
+    .titreH2{
+        font-size: 30px;
+        margin: 50px 0px 20px 16px;
+    }
+
+    .soutient{
+        margin-top: 0;
+    }
+
+/* SECTION 1----------------------------------------------------------------------- */
+
+    .section1{
+        border-bottom: 0px solid white;
+    }
+
+    .burgerClass{
+        display: block;
+    }
+
+    .img1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+    }
+
+/* JS-------------------------------------------------------------------------- */
+ 
+    header {
+    position:relative;
+    }
+
+    a {
+        color:inherit;
+        font-size: 18px;
+    }
+
+    #burger {
+    width:30px;
+    height:4px;
+    background: #CF3034;
+    display:inline-block;
+    position:relative;
+    }
+
+    #burger::before,
+    #burger::after {
+    content:'';
+    width:30px;
+    height:4px;
+    background:#CF3034;
+    display:inline-block;
+    position:absolute;
+    transform-origin: center;
+    transition: all 0.3s ease;
+    }
+    #burger::before {
+    top:-7px;
+    }
+    #burger::after {
+    top:7px;
+    }
+
+    #burger.open {
+    background:transparent;
+    }
+    #burger.open::before {
+    transform: rotate(45deg);
+    top:0;
+    }
+    #burger.open::after {
+    transform: rotate(-45deg);
+    top:0;
+    }
+
+    .navbar {
+    background:#E5E5E5;
+    position: absolute;
+    width:100%;
+    left:0;
+    top:100%;
+    padding:10px 0;
+    transform:scaleY(0);
+    transform-origin:center top;
+    transition:all 0.3s ease;
+    }
+    .navbar.open {
+    display: block;
+    transform:scaleY(1);
+    padding: 33px;
+    }
+    .navbar li {
+    padding:30px 0;
+    text-align:center;
+    }
+
+
+/* ------------------------------------------------------------------------- */
+
+/* SECTION 2---------------------------------------------------------------- */
+
+
+    #imgaccueil{
+        display: none;
+    }
+
+
+    .txt{
+        padding: 0;
+    }
+
+    .txt img{
+        align-self: flex-start;
+    }
+
+    .txt p{
+        margin-bottom: 36px;
+
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .button button{
+        width: 100%;
+    }
+
+    .section2{
+        display: flex;
+        padding: 31px 16px;
+    }
+
+    .section2 h2{
+        min-height: 56px;
+        font-size: 24px; 
+    }
+
+/* SECTION 3---------------------------------------------------------------- */
+
+    .fiche{
+        gap: 10px;  
+    }
+
+    .fiche1, .ficheRouge{
+        width: 181px;
+        height: 183px;  
+        padding: 0;
+        margin: 0;
+    }
+
+    .fiche .numero{
+        font-size: 36px;
+        margin-top: 2px;
+        margin-bottom: 0;
+        justify-content: flex-start;
+    }
+    
+    .fiche .paragrapheBlanc{
+        font-size: 18px;
+       
+    }
+
+    .fiche .paragrapheBlanc{
+        font-size: 24px;
+       
+    }
+
+    .fiche1{
+        justify-content: none;
+    }
+
+
+/* SECTION 4----------------------------------------------------------------- */
+    
+    .section4{
+        justify-content: center;
+        align-items: center;
+        /* height: 590px ; */
+       
+    }
+    .partGauche{
+        padding: 0px 16px 26px ;
+    }
+
+    .slide .partDroite .portrait{
+        display: none;
+    }
+
+    .slide .partDroite{
+        margin-top: 0;
+    }
+
+    .slide{
+        flex-direction: column;
+    }
+
+    .numero{
+        display: flex;
+        gap: 81px;
+        justify-content: center;
+    }
+
+    .pSection4{
+        margin-bottom: 9px;
+        font-size: 16px;
+    }
+
+    .pGras{
+        font-size: 16px;
+        width: min(1000px, 100%)
+    }
+
+
+/* SECTION 5-------------------------------------------------------------- */
+
+    .section5{
+        background: none;
+        min-height: 380px;
+        display: block;
+    }
+
+    .apprentis{
+        width: 100%;
+        padding: 10px 16px;
+    }
+
+    .txtapprentis{
+        padding: 0;     
+    }
+
+    .imageCache{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .txtapprentis h3{
+        font-size: 18px;
+        min-height: 40px;
+        padding-bottom: 8px;
+    }
+
+    .txtapprentis p{
+        font-size: 16px;
+        min-height: 54px;
+        padding-bottom: 30px;
+
+    }
+
+    .txtapprentis h3, p{
+        margin: 0;
+    }
+
+    .txtapprentis button{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+
+
+/* SECTION 6 ---------------------------------------------------------------*/
+
+    .section6{
+        padding: 0px;
+        height: 70px;
+    }
+
+    .logo{
+        justify-content: center;
+        gap: 16.83px;
+    }
+
+    .logo img{
+        min-width: 48.08px;
+        height: 48.08px;
+        padding: 0;
+
+    }
+
+    .sousSectionPrincipal{
+        background-color: white;
+        gap: 30%;
+    }
+
+
+/* FOOTER---------------------------------------------------------------------- */
+
+
+    .email{
+        align-items: flex-start;
+    }
+    .email h3{
+        font-size: 24px;
+    }
+
+    .email p{
+        font-size: 16px;
+    }
+
+    .ulFooter img, .logoFooter img, .logoReseau{
+        display: none;
+    }
+
+    .ulFooter{
+        display: initial;
+        flex-direction: column;
+        height: 360px;
+        padding: 0 0 0 15px;
+    }
+
+    .infoFooter .ulFooter{
+        margin: 0;
+    }
+
+    .imageCacheeFooter{
+        display: initial;
+    }
+
+    .imageCacheeFooter{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer1{
+        margin: 0;
+        justify-content: flex-start;
+        padding-left: 15px;
+        width: 100%;
+    }
+
+    .logoReseauFooterCachee{
+        display: flex;
+        justify-content: center;
+        gap: 20.3px;
+        margin-bottom: 44px;
+        margin-top: 52px;
+    }
+
+    .logoReseauFooterCachee a{
+        width: 35px;
+        height: 35px;
+    }
+
+    .imageCacheeFooter{
+        margin: 44px 51px 53px 52px;
+    }
+
+    .mailIcone{
+       padding: 0;
+    }
+
+  }
+
+
+
+@media(max-width: 490px){
+    .section4{
+        height: 580px;
+    }
+}
+  
+ul.open {
+    transform:scaleY(1);
+}
+
+
