@@ -319,15 +319,7 @@ nav{
     height: min(430px, 580px);
     display: flex;
     align-items: center;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
   }
-
-  .section4::-webkit-scrollbar{
-    display: none;
-
-}
 
 /* SECTION 5 --------------------------------------------------- */
 
