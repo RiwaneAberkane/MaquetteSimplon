@@ -18,13 +18,15 @@ body{
     padding-top: 10px;
 }
 
-
 /* SECTION 1 -------------------------------------------------------*/
-
 
 ul{
     display: flex;
     gap: 35px;
+}
+
+ul.open {
+    transform:scaleY(1);
 }
 
 
@@ -218,15 +220,18 @@ nav{
     position: absolute;
     transition: all 0.5s;
     display: flex;
+    scroll-snap-align: center;
 }
 
 .slide2{
     justify-content: space-around;
+    scroll-snap-align: center;
 }
 
 
 .slide3{
     justify-content: space-around;
+    scroll-snap-align: center;
 }
 
 .partGauche img{
@@ -314,7 +319,15 @@ nav{
     height: min(430px, 580px);
     display: flex;
     align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
   }
+
+  .section4::-webkit-scrollbar{
+    display: none;
+
+}
 
 /* SECTION 5 --------------------------------------------------- */
 
@@ -382,7 +395,6 @@ nav{
 /* SECTION 6 ------------------------------------------------------------------- */
 
 .section6{
-    /*----------*/
     overflow: hidden;
     background-color: white;
     width:min(1196px, 100%);
@@ -512,8 +524,7 @@ footer{
     margin-top: 46px;
 }
 
-
-/* LOGO HOVER ---------------------------- */
+/* LOGO HOVER -------------------------------------------------- */
 
 .fb{
     display: block;
@@ -619,6 +630,8 @@ input::placeholder{
 }
 
 /* MEDIA RESPONSIVE----------------------------------------------------------------------------- */
+
+
 /* 1340PX ----------------------------------------------------------------------------------------- */
 
 @media(max-width: 1340px){
@@ -858,10 +871,10 @@ input::placeholder{
     
     .section4{
         justify-content: center;
-        align-items: center;
-        /* height: 590px ; */
-       
+        align-items: center;   
+      
     }
+
     .partGauche{
         padding: 0px 16px 26px ;
     }
@@ -941,7 +954,6 @@ input::placeholder{
         margin-bottom: 18px;
     }
 
-
 /* SECTION 6 ---------------------------------------------------------------*/
 
     .section6{
@@ -949,16 +961,20 @@ input::placeholder{
         height: 70px;
     }
 
-    .logo{
-        justify-content: center;
-        gap: 16.83px;
-    }
-
     .logo img{
         min-width: 48.08px;
         height: 48.08px;
         padding: 0;
+    }
 
+    #logo1{
+        justify-content: center;
+        gap: 16.83px;
+    }
+
+    #logo2{
+        justify-content: center;
+        gap: 16.83px;
     }
 
     .sousSectionPrincipal{
@@ -966,9 +982,7 @@ input::placeholder{
         gap: 30%;
     }
 
-
 /* FOOTER---------------------------------------------------------------------- */
-
 
     .email{
         align-items: flex-start;
@@ -1035,8 +1049,7 @@ input::placeholder{
 
   }
 
-
-
+/* 490PX------------------------------------------------------------------- */
 @media(max-width: 490px){
     .section4{
         height: 599px;
@@ -1047,8 +1060,4 @@ input::placeholder{
     }
 }
   
-ul.open {
-    transform:scaleY(1);
-}
-
 

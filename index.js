@@ -1,3 +1,6 @@
+// TOOGLE BAR ---------------------------------------$$$$$$$$$$$$$$$$$$$$$
+
+
 let link = document.getElementById('link')
 let burger = document.getElementById('burger')
 let ul = document.querySelector('ul')
@@ -118,7 +121,7 @@ prevSlide3.addEventListener("click", function () {
 
 
 
-// $$$$$$$$$$$$$$$$$
+// SLIDE PARTENAIRES ------------------------------------$$$$$$$$$$$$$$$$$
 
 
 
@@ -167,9 +170,6 @@ prev.addEventListener("click", function() {
     prevSlide1();
 });
 
-// setInterval(function() {
-//     nextSlide1()
-// }, 4000);
 
 let intervalSponsors;
 
