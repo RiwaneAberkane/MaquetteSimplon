@@ -211,7 +211,6 @@ nav{
 
 
 .slide{
-    background-color: white;
     width: min(1196px, 100%);
     height: min(380px, 100%);
     display: flex;
@@ -221,17 +220,17 @@ nav{
     transition: all 0.5s;
     display: flex;
     scroll-snap-align: center;
+    object-fit: contain;
+    width: 100%;
 }
 
 .slide2{
     justify-content: space-around;
-    scroll-snap-align: center;
 }
 
 
 .slide3{
     justify-content: space-around;
-    scroll-snap-align: center;
 }
 
 .partGauche img{
@@ -966,7 +965,7 @@ input::placeholder{
 
     #logo2{
         justify-content: center;
-        gap: 16.83px;
+        gap: 13.83px;
     }
 
     .sousSectionPrincipal{
