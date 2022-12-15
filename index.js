@@ -118,11 +118,7 @@ prevSlide3.addEventListener("click", function () {
 });
 
 
-
-
-
 // SLIDE PARTENAIRES ------------------------------------$$$$$$$$$$$$$$$$$
-
 
 
 var slider = document.querySelector(".section6");
